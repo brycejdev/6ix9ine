@@ -1,0 +1,28 @@
+
+
+  
+#bio{
+  
+  padding: 100px 0;
+  background: #000;
+  position: relative;
+  z-index: 3;
+  .container{
+    max-width: 1000px;
+    display: flex;
+    margin: 0 auto;
+p{
+  width: 50%;
+  color: #fff;
+  line-height: 1.7;
+  font-size: .9rem;
+}
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+}
+}

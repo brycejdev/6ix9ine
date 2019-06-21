@@ -1,0 +1,58 @@
+header{
+  position: absolute;
+  z-index: 3;
+  display: flex;
+  width: 100%;
+justify-content: space-between;
+padding:1rem;
+  .logo{
+    width:50px;
+    img{
+      width: 100%;
+    }
+  }
+  nav{
+    align-self: center;
+    a{
+      color: #fff;
+      font-size: 1.2rem;
+      font-weight: 300;
+      padding: 0 10px;
+    }
+  }
+}
+
+
+
+#top-section{
+  position: relative;
+  height:100vh;
+  .blur{
+    background-image:  linear-gradient(45deg, rgba(25,32,42,1) 0%,rgba(215,28,221,0.32) 68%,rgba(229,229,229,0) 100%),url(/img/top.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    filter: blur(20px);
+    position: absolute;
+    z-index: 1;
+  }
+  .floating-img{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: absolute;
+    z-index: 2;
+  }
+  .tekashi-img{
+    width: 30%;
+    img{
+      width: 100%;
+      filter: contrast(120%);
+    }
+  }
+}
+
+ 
+
