@@ -1,34 +1,43 @@
-header{
+header {
   position: absolute;
   z-index: 3;
   display: flex;
   width: 100%;
-justify-content: space-between;
-padding:1rem;
-  .logo{
-    width:50px;
-    img{
+  justify-content: space-between;
+  padding: 1rem;
+
+  .logo {
+    width: 50px;
+
+    img {
       width: 100%;
     }
   }
-  nav{
+
+  nav {
     align-self: center;
-    a{
+
+    a {
       color: #fff;
       font-size: 1.2rem;
       font-weight: 300;
       padding: 0 10px;
+
+      &:hover {
+        color: red;
+      }
     }
   }
 }
 
 
 
-#top-section{
+#top-section {
   position: relative;
-  height:100vh;
-  .blur{
-    background-image:  linear-gradient(45deg, rgba(25,32,42,1) 0%,rgba(215,28,221,0.32) 68%,rgba(229,229,229,0) 100%),url(/img/top.jpg);
+  height: 100vh;
+
+  .blur {
+    background-image: linear-gradient(45deg, rgba(25, 32, 42, 1) 0%, rgba(215, 28, 221, 0.32) 68%, rgba(229, 229, 229, 0) 100%), url(/img/top.jpg);
     background-size: cover;
     height: 100vh;
     width: 100%;
@@ -36,7 +45,8 @@ padding:1rem;
     position: absolute;
     z-index: 1;
   }
-  .floating-img{
+
+  .floating-img {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -45,14 +55,13 @@ padding:1rem;
     position: absolute;
     z-index: 2;
   }
-  .tekashi-img{
+
+  .tekashi-img {
     width: 30%;
-    img{
+
+    img {
       width: 100%;
       filter: contrast(120%);
     }
   }
 }
-
- 
-

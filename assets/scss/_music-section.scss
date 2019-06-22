@@ -1,0 +1,68 @@
+#music {
+  position: relative;
+  // height: 100vh;
+  background: linear-gradient(45deg, rgba(247, 236, 24, 1) 0%, rgba(229, 32, 229, 1) 100%);
+
+
+  padding: 80px;
+
+  .container {
+    display: flex;
+
+
+    .info {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+
+      .title {
+        font-size: 2rem;
+        font-weight: 700;
+        text-align: center;
+      }
+
+      .subtitle {
+        font-size: 1.5rem;
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 100px;
+        text-transform: uppercase;
+      }
+
+      ul.singles {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        width: 400px;
+        margin-bottom: 80px;
+
+        li {
+          margin-bottom: 20px;
+          text-align: center;
+        }
+      }
+
+      .logos {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+      }
+    }
+
+    .album-cover {
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 50%;
+      }
+
+    }
+
+
+  }
+}

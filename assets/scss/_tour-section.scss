@@ -1,0 +1,52 @@
+#tour {
+  background: #000;
+  padding: 0 0 2rem 0;
+
+  .top-img{
+    background-image: url("/img/group.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 300px;
+    filter: grayscale(100%) saturate(0%) contrast(130%);
+  }
+
+  .title {
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 2rem 0;
+  }
+
+  .tour-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+    .date-container {
+      
+      justify-self: center;
+
+       p{
+        display: inline-block;
+        padding: .5rem;
+       } 
+      .city {
+        color: #fff;
+        font-weight: bolder;
+      
+      }
+
+      .location {
+        color: #fff;
+      }
+
+      .date {
+        color: rgb(187, 12, 108);
+        font-weight: 500
+      }
+    }
+  }
+
+
+}
