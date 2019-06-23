@@ -7,7 +7,7 @@ header {
   padding: 1rem;
 
   .logo {
-    width: 50px;
+    width: 80px;
 
     img {
       width: 100%;
@@ -37,7 +37,7 @@ header {
   height: 100vh;
 
   .blur {
-    background-image: linear-gradient(45deg, rgba(25, 32, 42, 1) 0%, rgba(215, 28, 221, 0.32) 68%, rgba(229, 229, 229, 0) 100%), url(/img/top.jpg);
+    background-image: linear-gradient(45deg, rgba(242, 31, 31, 1) 0%, rgba(252, 217, 17, 1) 46%, rgba(85, 221, 55, 1) 100%), url(/img/top.jpg);
     background-size: cover;
     height: 100vh;
     width: 100%;
@@ -56,11 +56,12 @@ header {
     z-index: 2;
   }
 
-  .tekashi-img {
-    width: 30%;
+  .bob-img {
+    width: 60%;
 
     img {
       width: 100%;
+
       filter: contrast(120%);
     }
   }
